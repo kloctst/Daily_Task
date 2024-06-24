@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="/css/reward.css" />
+</head>
+<body>
+  <div class="reward">
+    <div class="div">
+      <div class="container">
+        <div class="text-wrapper">GENERAL</div>
+        <div class="text-wrapper-2">OTHERS</div>
+        <div class="sidebar-menu">
+          <div class="frame">
+            <a href="overview.html">
+              <div class="text-wrapper-3">Overview</div>
+              <img class="img" src="/assets/overview.png" />
+            </a>
+          </div>
+          <div class="frame-2">
+            <a href="people.html">
+              <div class="text-wrapper-4">People</div>
+              <img class="img-2" src="/assets/people.png" />
+            </a>
+          </div>
+          <div class="frame-3">
+            <a href="task.html">
+              <div class="text-wrapper-4">My Task</div>
+              <img class="img-2" src="/assets/mytask.png" />
+            </a>
+          </div>
+          <div class="frame-4">
+            <a href="reward.html">
+              <div class="text-wrapper-3">Reward</div>
+              <img class="img" src="/assets/reward.png" />
+            </a>
+          </div>
+          <div class="frame-5">
+            <a href="#">
+              <div class="text-wrapper-5">Al Customs</div>
+              <img class="img" src="/assets/custom.png" />
+            </a>
+          </div>
+        </div>
+        <div class="sidebar-menu-2">
+          <div class="frame-6">
+            <a href="#">
+              <div class="text-wrapper-6">Settings</div>
+              <img class="img-2" src="/assets/settings.png" />
+            </a>
+          </div>
+          <div class="frame-7">
+            <a href="mailto:killyoctama@gmail.com">
+              <div class="text-wrapper-6">Contact Us</div>
+              <img class="img-2" src="/assets/cs.png" />
+            </a>
+          </div>
+          <div class="frame-8">
+            <a href="../index.html">
+              <div class="text-wrapper-6">Logout</div>
+              <img class="img-2" src="/assets/logout.png" />
+            </a>
+          </div>
+        </div>
+        <a href="/image-27-4.html">
+          <img class="image" src="/assets/it.png" />
+        </a>
+      </div>
+      <div class="overlap">
+        <div class="text-wrapper-7">Reward</div>
+        <p class="p">Claim your reward!</p>
+      </div>
+      <div class="container-2">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-1" data-points="5" onclick="claimReward(this)">&nbsp;&nbsp;5 Point</button>
+        </div>
+        <div class="text-wrapper-8">Buku & Pulpen</div>
+        <img class="image-2" src="/assets/bukupulpen.jpeg" />
+      </div>
+      <div class="container-3">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-2" data-points="10" onclick="claimReward(this)">&nbsp;&nbsp;10 Point</button>
+        </div>
+        <div class="text-wrapper-9">Voucher Makanan</div>
+        <img class="image-2" src="/assets/voucher makanan 50rb.jpeg" />
+      </div>
+      <div class="container-4">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-3" data-points="15" onclick="claimReward(this)">&nbsp;&nbsp;15 Point</button>
+        </div>
+        <div class="text-wrapper-100">Pulsa 50k</div>
+        <img class="image-2" src="/assets/Voucher Pulsa 50rb.png" />
+      </div>
+      <div class="container-5">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-4" data-points="35" onclick="claimReward(this)">&nbsp;&nbsp;35 Point</button>
+        </div>
+        <div class="text-wrapper-104">Handphone</div>
+        <img class="image-2" src="/assets/Handphone.jpeg" />
+      </div>
+      <div class="container-6">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-5" data-points="30" onclick="claimReward(this)">&nbsp;&nbsp;30 Point</button>
+        </div>
+        <div class="text-wrapper-103">Tiket Pesawat ke Bali</div>
+        <img class="image-2" src="/assets/tiket ke bali.jpeg" />
+      </div>
+      <div class="container-7">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-6" data-points="25" onclick="claimReward(this)">&nbsp;&nbsp;25 Point</button>
+        </div>
+        <div class="text-wrapper-102">Headset</div>
+        <img class="image-2" src="/assets/headset.jpeg" />
+      </div>
+      <div class="container-8">
+        <div class="overlap-group">
+          <div class="text-wrapper-10">M. Andyfa Fakhrizal</div>
+          <div class="text-wrapper-11">Account Executive</div>
+        </div>
+        <div class="textbox-2">
+          <div class="text-wrapper-12">Search by task</div>
+          <img class="radio-btn" src="/assets/search.png" />
+        </div>
+        <img class="image-3" src="/assets/andy.jpeg" />
+        <button class="button">
+          <div class="text"></div>
+        </button>
+        <div id="container-100">
+          <h1 class="text-wrapper-150">Your Point :</h1>
+          <div id="pointContainer">
+            <div id="pointLevel">
+              <div id="pointFill"></div>
+              <div id="pointText">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-9">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-7" data-points="20" onclick="claimReward(this)">&nbsp;&nbsp;20 Point</button>
+        </div>
+        <div class="text-wrapper-101">Tas</div>
+        <img class="image-2" src="/assets/tas.jpeg" />
+      </div>
+      <div class="container-10">
+        <div class="textbox-wrapper">
+          <button class="textbox" id="claim-8" data-points="40" onclick="claimReward(this)">&nbsp;&nbsp;40 Point</button>
+        </div>
+        <div class="text-wrapper-105">Laptop</div>
+        <img class="image-2" src="/assets/laptop.jpeg" />
+      </div>
+    </div>
+  </div>
+  <script>
+    function claimReward(button) {
+      let requiredPoints = parseInt(button.getAttribute('data-points'), 10);
+      let points = parseInt(localStorage.getItem("points"), 10) || 0;
+
+      if (points >= requiredPoints) {
+        points -= requiredPoints;
+        localStorage.setItem("points", points.toString());
+        button.innerText = "Claimed";
+        button.disabled = true;
+        button.style.backgroundColor = "#d3d3d3";
+        document.getElementById("pointText").textContent = points.toString();
+      } else {
+        alert("You do not have enough points to claim this reward.");
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      let points = parseInt(localStorage.getItem("points"), 10) || 0;
+      document.getElementById("pointText").textContent = points.toString();
+    });
+  </script>
+  <script src="/js/point.js"></script>
+</body>
+</html>

@@ -1,0 +1,684 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.my-task {
+    background-color: #ecf0f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .my-task .div {
+    background-color: #ecf0f6;
+    overflow: hidden;
+    width: 1881px;
+    height: 932px;
+    position: relative;
+  }
+  
+  .my-task .container {
+    width: 1465px;
+    height: 152px;
+    top: 282px;
+    left: 364px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .my-task .text-wrapper {
+    position: absolute;
+    top: 23px;
+    left: 95px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .my-task .p {
+    position: absolute;
+    top: 40px;
+    left: 95px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .my-task .text-wrapper-2 {
+    position: absolute;
+    top: 100px;
+    left: 335px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .my-task .text-wrapper-3 {
+    position: absolute;
+    width: 115px;
+    top: 100px;
+    left: 172px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 1500px;
+    color: #ff8c8c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .my-task .text-wrapper-4 {
+    position: absolute;
+    top: 99px;
+    left: 480px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .my-task .text-wrapper-5 {
+    position: absolute;
+    top: 96px;
+    left: 65px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .my-task .icon-button {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 23px;
+    left: 23px;
+  }
+  
+  .my-task .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 260px;
+    height: 61px;
+    top: 45px;
+    left: 1175px;
+    background-color: #8a70ff;
+    border-radius: 31px;
+    border: 1px solid;
+    border-color: #957dff;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .my-task .text-wrapper-6 {
+    position: absolute;
+    top: 14px;
+    left: 42px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .my-task .clock {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 99px;
+    left: 130px;
+  }
+  
+  .my-task .image {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 99px;
+    left: 30px;
+  }
+  
+  .my-task .img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 101px;
+    left: 443px;
+  }
+  
+  .my-task .image-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 101px;
+    left: 300px;
+  }
+  
+  .my-task .container-2 {
+    width: 1465px;
+    height: 93px;
+    top: 47px;
+    left: 364px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .my-task .overlap-group {
+    position: absolute;
+    width: 106px;
+    height: 56px;
+    top: 14px;
+    left: 1242px;
+  }
+  
+  .my-task .text-wrapper-7 {
+    position: absolute;
+    top: 26px;
+    left: -80px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .my-task .text-wrapper-8 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .my-task .textbox {
+    position: absolute;
+    width: 465px;
+    height: 60px;
+    top: 17px;
+    left: 16px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #f4f6fa;
+  }
+  
+  .my-task .text-wrapper-9 {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .my-task .radio-btn {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 10px;
+    left: 406px;
+  }
+  
+  .my-task .image-3 {
+    position: absolute;
+    width: 62px;
+    height: 54px;
+    top: 20px;
+    left: 1365px;
+  }
+  
+  .my-task .div-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    width: 309px;
+    height: 39px;
+    top: 28px;
+    left: 798px;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .my-task .text {
+    position: absolute;
+    top: 6px;
+    left: 154px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00bdd6;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .my-task .text-wrapper-10 {
+    position: absolute;
+    width: 187px;
+    top: 0px;
+    left: 595px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .my-task .text-wrapper-11 {
+    top: 170px;
+    left: 398px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    white-space: nowrap;
+    position: absolute;
+    color: #171a1f;
+    letter-spacing: 0;
+  }
+  
+  .my-task .text-wrapper-12 {
+    position: absolute;
+    top: 218px;
+    left: 396px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #565e6c;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .my-task .container-3 {
+    width: 338px;
+    height: 932px;
+    top: 0;
+    left: -1px;
+    background-color: #fefefe;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .my-task .text-wrapper-13 {
+    position: absolute;
+    top: 113px;
+    left: 19px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #565e6c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .my-task .text-wrapper-14 {
+    position: absolute;
+    top: 583px;
+    left: 19px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #565e6c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .my-task .sidebar-menu {
+    position: absolute;
+    width: 185px;
+    height: 330px;
+    top: 171px;
+    left: 39px;
+  }
+  
+  .my-task .frame {
+    position: absolute;
+    width: 185px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame, .frame-2, .frame-3, .frame-4, .frame-5, .frame-6, .frame-7, .frame-8 {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .frame:not(:last-child),
+  .frame-2:not(:last-child),
+  .frame-3:not(:last-child),
+  .frame-4:not(:last-child),
+  .frame-5:not(:last-child),
+  .frame-6:not(:last-child),
+  .frame-7:not(:last-child),
+  .frame-8:not(:last-child) {
+    border-bottom: 1px solid black; /* Black border as separator */
+  }
+  
+  
+  .my-task .text-wrapper-15 {
+    position: absolute;
+    width: 119px;
+    top: 4px;
+    left: 50px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .my-task .img-2 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 11px;
+    left: 16px;
+  }
+  
+  .my-task .frame-2 {
+    width: 185px;
+    top: 72px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-2:hover {
+    background-color: yellowgreen;
+  }
+  
+  .my-task .text-wrapper-16 {
+    position: absolute;
+    width: 122px;
+    top: 4px;
+    left: 47px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .my-task .img-3 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 12px;
+    left: 16px;
+  }
+  
+  .my-task .frame-3 {
+    width: 185px;
+    top: 143px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-3:hover {
+    background-color: yellowgreen;
+  }
+  
+  .my-task .frame-4 {
+    width: 185px;
+    top: 215px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-4:hover {
+    background-color: yellowgreen;
+  }
+  
+  .my-task .frame-5 {
+    width: 185px;
+    top: 286px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-5:hover {
+    background-color: yellowgreen;
+  }
+  
+  .my-task .text-wrapper-17 {
+    position: absolute;
+    top: 4px;
+    left: 50px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+  
+  .my-task .sidebar-menu-2 {
+    position: absolute;
+    width: 172px;
+    height: 181px;
+    top: 644px;
+    left: 41px;
+  }
+  
+  .my-task .frame-6 {
+    width: 172px;
+    top: 0;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-6:hover {
+    background-color: yellowgreen;
+
+  }
+  
+  .my-task .text-wrapper-18 {
+    position: absolute;
+    width: 109px;
+    top: 4px;
+    left: 47px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .my-task .frame-7 {
+    width: 172px;
+    top: 68px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-7:hover {
+    background-color: yellowgreen;
+  }
+  
+  .my-task .frame-8 {
+    width: 172px;
+    top: 137px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame-8:hover {
+    background-color: yellowgreen;
+  }
+  
+  .my-task .image-4 {
+    position: absolute;
+    width: 186px;
+    height: 58px;
+    top: 22px;
+    left: 60px;
+  }
+  
+  .my-task .container-4 {
+    top: 466px;
+    position: absolute;
+    width: 1463px;
+    height: 152px;
+    left: 366px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .my-task .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    left: 1173px;
+    position: absolute;
+    width: 260px;
+    height: 61px;
+    top: 45px;
+    background-color: #8a70ff;
+    border-radius: 31px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #957dff;
+  }
+  
+  .my-task .container-5 {
+    top: 650px;
+    position: absolute;
+    width: 1463px;
+    height: 152px;
+    left: 366px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .my-task .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    left: 1172px;
+    position: absolute;
+    width: 260px;
+    height: 61px;
+    top: 45px;
+    background-color: #8a70ff;
+    border-radius: 31px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #957dff;
+  }
+
+  #pointContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    all: unset;
+    position: absolute;
+    top: 23px;
+    left: 800px;
+}
+
+#pointLevel {
+    width: 140px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#pointLevel:hover {
+    background-color: #ddd;
+}
+
+#pointFill {
+    height: 100%;
+    width: 0%;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+#pointText {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.container h1 {
+  all: unset;
+  position: absolute;
+  left: 200px;
+}

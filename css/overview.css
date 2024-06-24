@@ -1,0 +1,1134 @@
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .overview {
+    background-color: #ecf0f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .overview .div {
+    background-color: #ecf0f6;
+    width: 1881px;
+    height: 932px;
+    position: relative;
+  }
+  
+  .overview .container {
+    width: 662px;
+    height: 302px;
+    top: 272px;
+    left: 365px;
+    background-color: #0a061e;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .overlap {
+    position: relative;
+    width: 607px;
+    height: 292px;
+    top: 5px;
+  }
+  
+  .overview .container-2 {
+    width: 511px;
+    height: 292px;
+    top: 0;
+    left: 0;
+    background-color: #0a061e;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .overlap-group {
+    position: absolute;
+    width: 270px;
+    height: 91px;
+    top: 40px;
+    left: 34px;
+  }
+  
+  .overview .text-wrapper {
+    top: 0;
+    left: 0;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 70px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-2 {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .overview .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 168px;
+    height: 58px;
+    top: 200px;
+    left: 45px;
+    background-color: #ffd88d;
+    border-radius: 4px;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .button:hover {
+    background-color: yellow;
+  }
+  
+  .overview .text-wrapper-3 {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+  
+  .overview .image {
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    top: 73px;
+    left: 461px;
+  }
+  
+  .overview .container-3 {
+    width: 662px;
+    height: 294px;
+    top: 599px;
+    left: 1168px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .overlap-2 {
+    position: absolute;
+    width: 225px;
+    height: 66px;
+    top: 188px;
+    left: 34px;
+  }
+  
+  .overview .text-wrapper-4 {
+    top: 0;
+    left: 0;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 30px;
+    line-height: 46px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-5 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .overview .overlap-3 {
+    position: absolute;
+    width: 240px;
+    height: 78px;
+    top: 28px;
+    left: 29px;
+  }
+  
+  .overview .img {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    top: 0;
+    left: 0;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;
+  }
+  
+  .overview .image-2 {
+    top: 0;
+    left: 39px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;
+  }
+  
+  .overview .image-3 {
+    top: 0;
+    left: 81px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;
+  }
+  
+  .overview .image-4 {
+    top: 0;
+    left: 123px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;
+  }
+  
+  .overview .image-5 {
+    top: 0;
+    left: 162px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;
+  }
+  
+  .overview .div-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    width: 182px;
+    height: 47px;
+    top: 205px;
+    left: 454px;
+    background-color: #de3b40;
+    border-radius: 4px;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .div-wrapper:hover {
+    background-color: brown;
+  }
+  
+  .overview .text-wrapper-6 {
+    position: absolute;
+    top: 7px;
+    left: 34px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 31px;
+    white-space: nowrap;
+  }
+  
+  .overview .container-4 {
+    width: 358px;
+    height: 302px;
+    top: 272px;
+    left: 1472px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .text-wrapper-7 {
+    position: absolute;
+    top: 85px;
+    left: 38px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 33px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 46px;
+    white-space: nowrap;
+  }
+  
+  .overview .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    top: 142px;
+    left: 130px;
+    background-color: #171a1f;
+    position: absolute;
+    width: 168px;
+    height: 58px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .button-2:hover {
+    background-color: #565e6c;
+  }
+  
+  .overview .text-wrapper-8 {
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+  
+  .overview .image-6 {
+    top: 132px;
+    left: 36px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+  }
+  
+  .overview .container-5 {
+    width: 348px;
+    height: 292px;
+    top: 601px;
+    left: 365px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .overlap-4 {
+    position: absolute;
+    width: 114px;
+    height: 68px;
+    top: 37px;
+    left: 121px;
+  }
+  
+  .overview .text-wrapper-9 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-10 {
+    top: 0;
+    left: 0;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 32px;
+    line-height: 48px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .overview .image-7 {
+    top: 27px;
+    left: 29px;
+    position: absolute;
+    width: 78px;
+    height: 78px;
+  }
+  
+  .overview .image-8 {
+    position: absolute;
+    width: 311px;
+    height: 136px;
+    top: 126px;
+    left: 19px;
+  }
+  
+  .overview .container-6 {
+    width: 426px;
+    height: 73px;
+    top: 172px;
+    left: 1404px;
+    background-color: #ecf0f6;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .text-wrapper-11 {
+    position: absolute;
+    top: 19px;
+    left: 66px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .overview .image-9 {
+    position: absolute;
+    width: 34px;
+    height: 36px;
+    top: 17px;
+    left: 21px;
+  }
+  
+  .overview .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 182px;
+    height: 47px;
+    top: 11px;
+    left: 225px;
+    background-color: #8353e2;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .text-wrapper-12 {
+    position: absolute;
+    top: 7px;
+    left: 28px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 31px;
+    white-space: nowrap;
+  }
+  
+  .overview .overlap-5 {
+    position: absolute;
+    width: 260px;
+    height: 76px;
+    top: 166px;
+    left: 362px;
+  }
+  
+  .overview .text-wrapper-13 {
+    top: 0;
+    left: 3px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    white-space: nowrap;
+    position: absolute;
+    color: #171a1f;
+    letter-spacing: 0;
+  }
+  
+  .overview .p {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #9095a0;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .overview .container-7 {
+    width: 338px;
+    height: 932px;
+    top: 0;
+    left: 0;
+    background-color: #fefefe;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-7 a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menjaga warna teks dari warisan */
+  }
+  
+  .overview .text-wrapper-14 {
+    position: absolute;
+    top: 113px;
+    left: 19px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #565e6c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-15 {
+    position: absolute;
+    top: 583px;
+    left: 19px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #565e6c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .overview .sidebar-menu {
+    position: absolute;
+    width: 185px;
+    height: 330px;
+    top: 171px;
+    left: 39px;
+  }
+  
+  .overview .frame {
+    width: 185px;
+    top: 0;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .frame, .frame-2, .frame-3, .frame-4, .frame-5, .frame-6, .frame-7, .frame-8 {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .frame:not(:last-child),
+  .frame-2:not(:last-child),
+  .frame-3:not(:last-child),
+  .frame-4:not(:last-child),
+  .frame-5:not(:last-child),
+  .frame-6:not(:last-child),
+  .frame-7:not(:last-child),
+  .frame-8:not(:last-child) {
+    border-bottom: 1px solid black; /* Black border as separator */
+}
+
+.frame-2 {
+    border-bottom: 1px solid black;
+}
+
+  .frame:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-2:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-3:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-4:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-5:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-6:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-7:hover {
+    background-color: yellowgreen;
+  }
+
+  .frame-8:hover {
+    background-color: yellowgreen;
+  }
+  
+  .overview .text-wrapper-16 {
+    width: 119px;
+    top: 4px;
+    left: 50px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    position: absolute;
+    color: #171a1f;
+    letter-spacing: 0;
+  }
+  
+  .overview .img-2 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 11px;
+    left: 16px;
+  }
+  
+  .overview .frame-2 {
+    width: 185px;
+    top: 143px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .text-wrapper-17 {
+    position: absolute;
+    width: 122px;
+    top: 4px;
+    left: 47px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .overview .img-3 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 11px;
+    left: 16px;
+  }
+  
+  .overview .frame-3 {
+    width: 185px;
+    top: 215px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .frame-4 {
+    width: 185px;
+    top: 286px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .text-wrapper-18 {
+    position: absolute;
+    top: 4px;
+    left: 50px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+  
+  .overview .frame-5 {
+    width: 185px;
+    top: 72px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .sidebar-menu-2 {
+    position: absolute;
+    width: 172px;
+    height: 181px;
+    top: 644px;
+    left: 41px;
+  }
+  
+  .overview .frame-6 {
+    width: 172px;
+    top: 0;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .text-wrapper-19 {
+    position: absolute;
+    width: 109px;
+    top: 4px;
+    left: 47px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .overview .frame-7 {
+    width: 172px;
+    top: 68px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .frame-8 {
+    width: 172px;
+    top: 137px;
+    position: absolute;
+    height: 44px;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .overview .image-10 {
+    position: absolute;
+    width: 186px;
+    height: 58px;
+    top: 22px;
+    left: 60px;
+  }
+  
+  .overview .container-8 {
+    width: 1465px;
+    height: 93px;
+    top: 47px;
+    left: 365px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .overlap-6 {
+    position: absolute;
+    width: 106px;
+    height: 56px;
+    top: 14px;
+    left: 1242px;
+  }
+  
+  .overview .text-wrapper-20 {
+    position: absolute;
+    top: 26px;
+    left: -80px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-21 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .overview .textbox {
+    position: absolute;
+    width: 465px;
+    height: 60px;
+    top: 17px;
+    left: 16px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #f4f6fa;
+  }
+  
+  .overview .text-wrapper-22 {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .overview .radio-btn {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 10px;
+    left: 406px;
+  }
+  
+  .overview .image-11 {
+    position: absolute;
+    width: 62px;
+    height: 54px;
+    top: 20px;
+    left: 1365px;
+  }
+  
+  .overview .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    width: 309px;
+    height: 39px;
+    top: 28px;
+    left: 798px;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .overview .text {
+    top: 6px;
+    left: 154px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00bdd6;
+    font-size: 16px;
+    line-height: 26px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-23 {
+    position: absolute;
+    width: 187px;
+    top: 22px;
+    left: 595px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .overview .container-9 {
+    position: absolute;
+    width: 350px;
+    height: 292px;
+    top: 553px;
+    left: 400px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .overlap-7 {
+    position: absolute;
+    width: 146px;
+    height: 65px;
+    top: 40px;
+    left: 114px;
+  }
+  
+  .overview .text-wrapper-24 {
+    top: 0;
+    left: 0;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 33px;
+    text-align: center;
+    line-height: 46px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-25 {
+    position: absolute;
+    top: 37px;
+    left: 8px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #bcc1ca;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .overview .container-10 {
+    width: 287px;
+    height: 146px;
+    top: 119px;
+    left: 32px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .text-wrapper-26 {
+    position: absolute;
+    top: 59px;
+    left: 22px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #565e6c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-27 {
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #565e6c;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-28 {
+    position: absolute;
+    top: 104px;
+    left: 22px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #565e6c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .overview .image-12 {
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    top: 108px;
+    left: 253px;
+  }
+  
+  .overview .image-13 {
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    top: 15px;
+    left: 253px;
+  }
+  
+  .overview .image-14 {
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    top: 61px;
+    left: 253px;
+  }
+  
+  .overview .image-15 {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    top: 37px;
+    left: 34px;
+  }
+  
+  .overview .container-11 {
+    position: absolute;
+    width: 352px;
+    height: 302px;
+    top: 225px;
+    left: 710px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .overview .image-16 {
+    position: absolute;
+    width: 188px;
+    height: 130px;
+    top: 75px;
+    left: 85px;
+  }
+  
+  .overview .button-5 {
+    all: unset;
+    box-sizing: border-box;
+    top: 224px;
+    left: 95px;
+    background-color: #ed7d2d;
+    position: absolute;
+    width: 168px;
+    height: 58px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .button-5:hover {
+    background-color: orangered;
+  }
+  
+  .overview .text-wrapper-29 {
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+  
+  .overview .text-wrapper-30 {
+    position: absolute;
+    top: 17px;
+    left: 21px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 33px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 46px;
+    white-space: nowrap;
+  }
+
+  .button-5 a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menjaga warna teks */
+    display: block; /* Agar elemen <a> berperilaku seperti <div> */
+    width: 100%; /* Mengisi lebar tombol */
+    height: 100%; /* Mengisi tinggi tombol */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    line-height: inherit; /* Mengatur tinggi garis sesuai dengan tombol */
+    padding: inherit; /* Menjaga padding tombol */
+    background-color: inherit; /* Menjaga background tombol */
+    border: none; /* Menghilangkan border default pada tautan */
+    cursor: pointer; /* Menjaga cursor sebagai pointer */
+  }
+
+  .button-2 a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: inherit; /* Menjaga warna teks */
+    display: block; /* Agar elemen <a> berperilaku seperti <div> */
+    width: 100%; /* Mengisi lebar tombol */
+    height: 100%; /* Mengisi tinggi tombol */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    line-height: inherit; /* Mengatur tinggi garis sesuai dengan tombol */
+    padding: inherit; /* Menjaga padding tombol */
+    background-color: inherit; /* Menjaga background tombol */
+    border: none; /* Menghilangkan border default pada tautan */
+    cursor: pointer; /* Menjaga cursor sebagai pointer */
+  }
+
+  .overview .text-wrapper-150 {
+    position: absolute;
+    width: 187px;
+    top: 0px;
+    left: 595px;
+    font-family: "Epilogue-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+
+  #pointContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    all: unset;
+    position: absolute;
+    top: 23px;
+    left: 800px;
+}
+
+#pointLevel {
+    width: 140px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#pointLevel:hover {
+    background-color: #ddd;
+}
+
+#pointFill {
+    height: 100%;
+    width: 0%;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+#pointText {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+  
